@@ -1,0 +1,136 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #cdd4cb;
+}
+
+div{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    font-weight: 800;
+    font-size: 32px;
+}
+h2{
+    font-weight: 800;
+}
+
+a{
+    text-decoration: none;
+    font-style: italic;
+    font-weight: 600;
+
+}
+
+.main{
+    padding-top: 50px;
+}
+
+ul{
+    text-align: center;
+    font-size: 0;
+
+}
+ul li{
+    display: inline-block;
+    font-size: 30px;
+    background: #8294cf;
+    border-right:2px solid #d77c54;
+    border-radius: 20px;
+    border-left:2px solid #d77c54 ;
+    position: relative;
+
+}
+ul li a {
+    color: #d7a99f;
+    text-decoration: 0;
+    text-transform: uppercase;
+    padding: 0 50px;
+    display: block;
+}
+ul ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    padding-top: 15px;
+}
+ul ul li{
+    margin-top: 3px;
+    min-height: 31px;
+    width: 200px;
+}
+ul li:hover{
+    background: #d7d2d1;
+}
+ul li:hover ul {
+    display: block;
+}
+
+.div_after{
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+.div_after>li{
+    display: none;
+}
+.float:hover .div_after>li{
+    display: block;
+}
+.grid{
+    position: absolute;
+    right: 100%;
+    top: 0;
+}
+.grid>li{
+    display: none;
+}
+.grid_li:hover .grid>li{
+    display: block;
+}
+
+
+#bahrain_img{
+    text-align: center;
+}
+#arabia_img {
+    text-align: center;
+}
+#australia_img {
+    text-align: center;
+}
+#imola_img{
+    text-align: center;
+}
+#miami_img{
+    text-align: center;
+}
+#spain_img{
+    text-align: center;
+}
+#monaco_img{
+    text-align: center;
+ }
+#azerbaijan_img{
+    text-align: center;
+}
+#canada_img{
+    text-align: center;
+}
+#britain_img{
+    text-align: center;
+}
+#austria_img{
+    text-align: center;
+}
+#france_img{
+    text-align: center;
+}
+#hungary_img{
+    text-align: center;
+}

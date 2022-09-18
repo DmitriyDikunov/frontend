@@ -1,0 +1,183 @@
+html{
+    scroll-behavior: smooth;
+}
+.wrapper{
+    width: 1400px;
+    outline: 2px solid red;
+    margin: 0 auto;
+    position: relative;
+}
+#laptops{
+    padding-top: 50px;
+    text-align: center;
+}
+#laptops>div{
+    border: 2px solid #8294cf;
+}
+.laptop1{
+    display: inline-block;
+    position: relative;
+}
+.text_laptop1{
+    font-size: 0;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #b5d5dd;
+    margin-left: -300px;
+}
+.laptop1:hover > .text_laptop1{
+    font-size: 16px;
+
+}
+.laptop2{
+    display: inline-block;
+    position: relative;
+    width: 600px;
+
+}
+.text_laptop2{
+    font-size: 0;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #b5d5dd;
+    margin-left: -300px
+}
+.laptop2:hover>.text_laptop2{
+    font-size: 16px;
+}
+
+#phones{
+    margin-top: 50px;
+    text-align: center;
+}
+#phones>div{
+    border: 2px solid #8294cf;
+}
+.phone1{
+    display: inline-block;
+    position: relative;
+
+}
+.text_phone1{
+    font-size: 0;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #b5d5dd;
+    margin-left: -300px;
+}
+.phone1:hover > .text_phone1{
+    font-size: 16px;
+}
+.phone2{
+    display: inline-block;
+    position: relative;
+}
+.phone2:hover > .text_phone2{
+   font-size: 16px;
+}
+.text_phone2{
+    font-size: 0;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #b5d5dd;
+    margin-left: -300px;
+
+}
+#tv{
+    margin-top: 50px;
+    text-align: center;
+}
+#tv>div{
+    border: 2px solid #8294cf;
+}
+.tv1{
+    display: inline-block;
+    position: relative;
+}
+.tv1:hover > .text_tv1{
+    font-size: 16px;
+}
+.text_tv1{
+    font-size: 0;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #b5d5dd;
+    margin-left: -300px;
+}
+.tv2{
+    display: inline-block;
+    position: relative;
+}
+.tv2:hover > .text_tv2{
+    font-size: 16px;
+}
+.text_tv2{
+    font-size: 0;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #b5d5dd;
+    margin-left: -300px;
+}
+#headphones{
+    margin-top: 50px;
+    text-align: center;
+}
+#headphones>div{
+    border: 2px solid #8294cf;
+}
+.headphones1{
+    display: inline-block;
+    position: relative;
+}
+.headphones1:hover > .text_headphones1{
+    font-size: 16px;
+}
+.text_headphones1{
+    font-size: 0;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #b5d5dd;
+    margin-left: -300px;
+}
+.headphones2{
+    display: inline-block;
+    position: relative;
+}
+.headphones2:hover > .text_headphones2{
+    font-size: 16px;
+}
+.text_headphones2{
+    font-size: 0;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #b5d5dd;
+    margin-left: -300px;
+}
+.sidebar{
+    position: fixed;
+    top: 50%;
+}
+.sidebar>div{
+    padding-bottom: 30px;
+}
+.sidebar>div>a{
+    text-decoration: 0;
+    color: #dc8849;
+    font-weight: 600;
+}

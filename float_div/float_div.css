@@ -1,0 +1,120 @@
+.main  {
+    width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid red;
+}
+.in_first{
+    float: left;
+    background: #99bbdc;
+    outline: 2px solid #2b571e;
+}
+.first_clear{
+    clear: left;
+}
+.second{
+    padding-top: 60px;
+}
+.second_left{
+    width: 800px;
+    float: left;
+
+}
+.second_left_side{
+    background: #99bbdc;
+    outline: 2px solid #2b571e;
+
+}
+.second_right{
+    width: 600px;
+    float: right;
+
+}
+.second_right_side{
+    background: #99bbdc;
+    outline: 2px solid #2b571e;
+}
+.second_clear_right{
+    clear: right;
+}
+.third{
+    padding-top: 50px;
+}
+.third_left{
+    width: 600px;
+    float: left;
+
+}
+.third_left_bottom{
+    width: 600px;
+    float: right;
+    background: #99bbdc;
+    outline: 2px solid #2b571e;
+}
+.third_left_top{
+    background: #99bbdc;
+    outline: 2px solid #2b571e;
+}
+.third_clear_left{
+    clear: left;
+}
+.third_right{
+   width: 600px;
+    float: right;
+    background: #99bbdc;
+    outline: 2px solid #2b571e;
+    padding-top: 30px;
+}
+.third_clear_right{
+    clear: right;
+}
+.fourth{
+    padding-top: 60px;
+}
+.fourth_left_top{
+    width: 600px;
+    float: left;
+    background: #99bbdc;
+    outline: 2px solid #2b571e;
+}
+.fourth_left{
+    width: 600px;
+    float: left ;
+    background: #99bbdc;
+    outline: 2px solid #2b571e;
+}
+.fourth_left_bottom{
+    width: 600px;
+    float: right;
+}
+.fourth_left_bottom_left{
+    width: 260px;
+    float: left;
+    background: #99bbdc;
+    outline: 2px solid #2b571e;
+}
+.fourth_left_bottom_right {
+    width: 340px;
+    float: right;
+    background: #99bbdc;
+    outline: 2px solid #2b571e;
+}
+.fourth_left_clear{
+    clear: both;
+}
+.fourth_left{
+    clear: both;
+}
+
+.fourth_right{
+    width: 600px;
+    float: right;
+    background: #99bbdc;
+    outline: 2px solid #2b571e;
+}
+.fourth_right_clear{
+    clear: right    ;
+}
+
+
+
